@@ -7,6 +7,7 @@ import Features from "@/components/Features/Features.component";
 import Blogs from "@/components/Blogs/Blogs.component";
 import SaasTrial from "@/components/SaaSTrial/SaasTrial.component";
 import YoutubeEmbed from "@/components/common/YouTubeEmbed";
+import Footer from "@/components/Footer/Footer.component";
 
 export default function Home() {
   return (
@@ -490,128 +491,7 @@ export default function Home() {
             <Blogs />
           </main>
         </div>
-        <div id="layoutDefault_footer">
-          <footer className="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
-            <div className="container px-10">
-              <div className="row gx-5">
-                <div className="col-lg-3">
-                  <div className="footer-brand">
-                    <Image
-                      width={100}
-                      height={100}
-                      src="/assets/omd-logo-footer.svg"
-                      alt="omd-footer-logo"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="mb-3">
-                    Open Standard for Metadata with a Centralized Metadata
-                    Store. Discover, Collaborate and get your Data Right.
-                  </div>
-                </div>
-                <div className="col-lg-3 offset-lg-1 col-md-6 mb-4 mb-lg-0">
-                  <div className="text-uppercase-expanded text-xs mb-4">
-                    Docs
-                  </div>
-                  <ul className="list-unstyled mb-0">
-                    <li className="mb-2">
-                      <a href="https://docs.open-metadata.org/" target="_blank">
-                        What is OpenMetadata?
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://docs.open-metadata.org/main-concepts/metadata-standard/schemas"
-                        target="_blank"
-                      >
-                        Schemas
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://docs.open-metadata.org/main-concepts/metadata-standard/apis"
-                        target="_blank"
-                      >
-                        APIs
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://docs.open-metadata.org/deployment/kubernetes"
-                        target="_blank"
-                      >
-                        Install
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://docs.open-metadata.org/connectors/ingestion"
-                        target="_blank"
-                      >
-                        Ingestion
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                  <div className="text-uppercase-expanded text-xs mb-4">
-                    Community
-                  </div>
-                  <ul className="list-unstyled mb-0">
-                    <li className="mb-2">
-                      <a
-                        href="https://slack.open-metadata.org/"
-                        target="_blank"
-                      >
-                        <i className="fab fa-slack" /> Slack
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://github.com/open-metadata/openmetadata"
-                        target="_blank"
-                      >
-                        <i className="fab fa-github" /> GitHub
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://twitter.com/open_metadata"
-                        target="_blank"
-                      >
-                        <i className="fab fa-twitter" /> Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.meetup.com/openmetadata-meetup-group/"
-                        target="_blank"
-                      >
-                        <i className="fab fa-meetup" /> Meetup
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-lg-2">
-                  <div className="text-uppercase-expanded text-xs mb-2">
-                    Deployed By
-                  </div>
-                  <Image
-                    height={120}
-                    src="/assets/netlify.png"
-                    width={120}
-                    alt="netlify-png"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-              <hr className="my-5" />
-              <div className="row gx-5 align-items-center">
-                <div className="col-md-6 small">Copyright © OpenMetadata</div>
-              </div>
-            </div>
-          </footer>
-        </div>
+        <Footer />
       </div>
       {/* Social Media Engagement - Off page SEO */}
     </>
