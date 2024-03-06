@@ -12,34 +12,42 @@ const BlogCard: React.FC<BlogCardProps> = ({
   description,
 }) => {
   return (
-    <div className="col-lg-4 mb-5">
-      <a className="card lift h-100" href={blogLink} target="_blank">
-        <img className="w-full" src={imageLink} alt="release-1.3.0" />
-        <div className="card-body">
-          <h4 className="card-title mb-2">{title}</h4>
-          <p className="card-text">{description}</p>
-        </div>
-        <div className="card-footer bg-transparent border-top d-flex align-items-center justify-content-between">
-          <div className="small text-primary">Read more</div>
-          <div className="small text-primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="feather feather-arrow-right"
-            >
-              <line x1={5} y1={12} x2={19} y2={12} />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </div>
-        </div>
+    <div className="lg:w-1/3 lg:mb-0 mb-4 p-4">
+      <a
+        className="block relative h-48 rounded overflow-hidden"
+        href={blogLink}
+        target="_blank"
+      >
+        <img
+          alt="blog"
+          className="object-cover object-center w-full h-full block"
+          src={imageLink}
+        />
       </a>
+      <div className="mt-4">
+        <h3 className="text-gray-900 text-lg font-medium title-font mb-2">
+          {title}
+        </h3>
+        <p className="text-gray-600 text-base">{description}</p>
+        <a
+          className="text-indigo-500 inline-flex items-center mt-3"
+          href={blogLink}
+          target="_blank"
+        >
+          Read more
+          <svg
+            className="w-4 h-4 ml-2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth="2"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
     </div>
   );
 };
