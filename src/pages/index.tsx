@@ -185,8 +185,8 @@ export default function Home() {
                       data-aos-delay={100}
                     >
                       <Image
-                        height={2000}
-                        width={2000}
+                        height={1000}
+                        width={1000}
                         className="object-contain"
                         src="/assets/home-section.png"
                         alt="home-section-img"
