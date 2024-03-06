@@ -1,5 +1,4 @@
 import {useCallback, useEffect, useState} from "react";
-import {toNumber} from "lodash";
 
 /**
  * React hook to copy text to clipboard
@@ -34,7 +33,7 @@ export const useClipboard = (
     let timeoutId: number | null = null;
 
     if (hasCopied) {
-      timeoutId = toNumber(
+      timeoutId = Number(
         setTimeout(() => {
           setHasCopied(false);
         }, timeout)
