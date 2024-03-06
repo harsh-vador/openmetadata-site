@@ -1,5 +1,4 @@
 import Image from "next/image";
-import {Inter} from "next/font/google";
 import Head from "next/head";
 import Testimonials from "../components/TeamsSection/Testimonials";
 import TeamsSection from "../components/TeamsSection/TeamsSection";
