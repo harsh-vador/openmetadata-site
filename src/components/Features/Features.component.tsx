@@ -6,7 +6,7 @@ const Features = () => {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-center mb-5">
         <div className="order-2 md:order-1">
-          <div className="mb-4 w-full">
+          <div className="mb-4 w-full" data-aos="slide-left">
             <Image
               alt="feature01"
               width={1000}
@@ -53,7 +53,7 @@ const Features = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-center mb-5">
-        <div className="order-1 sm:order-1">
+        <div className="order-1 sm:order-1" data-aos="slide-right">
           <div className="mb-4 w-full">
             <Image
               alt="feature02"
@@ -113,7 +113,7 @@ const Features = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-center mb-5">
-        <div className="order-2 md:order-1">
+        <div className="order-2 md:order-1" data-aos="slide-left">
           <div className="mb-4 w-full">
             <Image
               alt="feature03"
@@ -160,7 +160,7 @@ const Features = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-center mb-5">
-        <div className="order-1 md:order-1">
+        <div className="order-1 md:order-1" data-aos="slide-right">
           <div className="mb-4 w-full">
             <Image
               alt="feature04"

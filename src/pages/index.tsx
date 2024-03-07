@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Head from "next/head";
 import Testimonials from "../components/TeamsSection/Testimonials";
 import TeamsSection from "../components/TeamsSection/TeamsSection";
 import CopyCode from "@/components/CopyCode/CopyCode.component";
@@ -91,7 +90,7 @@ export default function Home() {
                   <div
                     className="col-lg-5 d-none d-lg-block"
                     data-aos="fade-up"
-                    data-aos-delay={100}
+                    data-aos-delay="100"
                   >
                     <Image
                       height={1000}
