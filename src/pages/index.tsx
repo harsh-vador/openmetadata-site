@@ -173,7 +173,7 @@ export default function Home() {
               <div className="row gx-5 justify-content-center z-1">
                 <div className="col-lg-8" data-aos="fade-up">
                   <div className="card">
-                    <div className="card-body p-2">
+                    <div className="card-body p-0">
                       <div className="video bg-img-cover rounded">
                         <YoutubeEmbed videoId="pF8L_mAtexo" />
                       </div>
