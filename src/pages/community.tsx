@@ -152,7 +152,7 @@ export default function Community() {
                   <div className="col max-lg:mb-4">
                     <div className="card">
                       <div className="card-body">
-                        <YoutubeEmbed videoId="ihwtuNHt1kI" height="260" />
+                        <YoutubeEmbed videoId="ihwtuNHt1kI" />
                         <p className="font-semibold mb-0 mt-2">
                           Here's a Webinar on Data Quality Simplified:
                           Effortlessly Build, Deploy, Monitor, & Configure
@@ -167,7 +167,7 @@ export default function Community() {
                   <div className="col">
                     <div className="card">
                       <div className="card-body">
-                        <YoutubeEmbed videoId="lOQepnTdA58" height="260" />
+                        <YoutubeEmbed videoId="lOQepnTdA58" />
                         <p className="font-semibold mb-0 mt-2">
                           Learn to proactively hone the data culture of your
                           company. With a built-in goal-setting and tracking
@@ -231,7 +231,7 @@ export default function Community() {
                       <div className="col-lg-6 mb-4">
                         <div className="card">
                           <div className="card-body">
-                            <YoutubeEmbed videoId="7jgtfdpOKwo" height="260" />
+                            <YoutubeEmbed videoId="7jgtfdpOKwo" />
                             <p className="font-semibold mb-0 mt-2">
                               Feb 1st, 2024
                             </p>
@@ -241,7 +241,7 @@ export default function Community() {
                       <div className="col">
                         <div className="card">
                           <div className="card-body">
-                            <YoutubeEmbed videoId="W4R8BUiHyK4" height="260" />
+                            <YoutubeEmbed videoId="W4R8BUiHyK4" />
                             <p className="font-semibold mb-0 mt-2">
                               Dec 18th, 2023
                             </p>

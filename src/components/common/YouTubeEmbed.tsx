@@ -1,28 +1,23 @@
 import React from "react";
 import Head from "next/head";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 interface YoutubeEmbedProps {
   videoId: string;
-  height: string;
 }
 
-const YoutubeEmbed: React.FC<YoutubeEmbedProps> = ({videoId, height}) => {
+const YoutubeEmbed: React.FC<YoutubeEmbedProps> = ({videoId}) => {
   return (
     <div className="youtube-video-container">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="youtube-video">
-        <iframe
-          width={"100%"}
-          height={height}
-          src={`https://www.youtube.com/embed/${videoId}`}
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          frameBorder="0"
-          loading="lazy"
-          allowFullScreen
-        ></iframe>
+        <LiteYouTubeEmbed
+          id={videoId}
+          title="What's new in Material Design for the web (Chrome Dev Summit 2019)"
+        />
       </div>
     </div>
   );
