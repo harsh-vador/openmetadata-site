@@ -93,9 +93,13 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-delay={100}
                   >
-                    <img
-                      alt="home-section-img"
+                    <Image
+                      height={1000}
+                      width={1000}
+                      className="object-contain"
                       src="/assets/home-section.png"
+                      alt="home-section-img"
+                      loading="eager"
                     />
                   </div>
                 </div>
