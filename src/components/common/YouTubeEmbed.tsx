@@ -14,10 +14,7 @@ const YoutubeEmbed: React.FC<YoutubeEmbedProps> = ({videoId}) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="youtube-video">
-        <LiteYouTubeEmbed
-          id={videoId}
-          title="What's new in Material Design for the web (Chrome Dev Summit 2019)"
-        />
+        <LiteYouTubeEmbed id={videoId} title="YouTube Video Player" />
       </div>
     </div>
   );
