@@ -93,13 +93,9 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-delay={100}
                   >
-                    <Image
-                      height={1000}
-                      width={1000}
-                      className="object-contain"
-                      src="/assets/home-section.png"
+                    <img
                       alt="home-section-img"
-                      loading="lazy"
+                      src="/assets/home-section.png"
                     />
                   </div>
                 </div>
@@ -172,7 +168,7 @@ export default function Home() {
                   <div className="card">
                     <div className="card-body p-2">
                       <div className="video bg-img-cover rounded">
-                        <YoutubeEmbed videoId="pF8L_mAtexo" height="350" />
+                        <YoutubeEmbed videoId="pF8L_mAtexo" />
                       </div>
                     </div>
                   </div>
