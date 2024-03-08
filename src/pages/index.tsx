@@ -9,10 +9,14 @@ import YoutubeEmbed from "@/components/common/YouTubeEmbed";
 import Footer from "@/components/Footer/Footer.component";
 import Integrations from "@/components/Integrations/Integrations";
 import Navbar from "@/components/Navbar/Navbar.component";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <link rel="preload" href="/assets/home-section.png" as="image" />
+      </Head>
       <div id="layoutDefault">
         <div id="layoutDefault_content">
           <Navbar />
