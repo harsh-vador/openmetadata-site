@@ -102,7 +102,7 @@ export default function Home() {
                       className="object-contain"
                       src="/assets/home-section.png"
                       alt="home-section-img"
-                      loading="lazy"
+                      loading="eager"
                     />
                   </div>
                 </div>
