@@ -6,7 +6,7 @@ function Navbar() {
   const [scrolledNav, setScrolledNav] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 25) {
       setScrolledNav(true);
     } else {
       setScrolledNav(false);
@@ -63,7 +63,7 @@ function Navbar() {
         <div
           className={`${
             open ? "block" : "hidden"
-          } h-auto lg:flex lg:items-center absolute top-full left-0 right-0  lg:relative lg:top-auto lg:left-auto lg:right-auto pb-4`}
+          } h-auto lg:flex bg-white lg:items-center absolute top-full left-0 right-0  lg:relative lg:top-auto lg:left-auto lg:right-auto pb-4`}
         >
           <ul className="navbar-nav ml-auto mr-4 lg:mr-0 lg:flex-row">
             <li className="nav-item lg:mr-5 max-lg:pl-10">
