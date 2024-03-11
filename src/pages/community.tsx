@@ -16,7 +16,7 @@ export default function Community() {
         />
         <meta
           name="description"
-          content="OpenMetadata is the #1 open source data catalog tool with the all-in-one platform for data discovery, quality, governance, collaboration & more. Join our community to stay updated."
+          content="OpenMetadata is the #1 open source data catalog tool with the all-in-one platform for data discovery, quality, governance, collaboration &amp; more. Join our community to stay updated."
         />
         <meta
           name="keywords"
@@ -31,7 +31,7 @@ export default function Community() {
         />
         <meta
           property="og:description"
-          content="OpenMetadata is the #1 open source data catalog tool with the all-in-one platform for data discovery, quality, governance, collaboration & more. Join our community to stay updated."
+          content="OpenMetadata is the #1 open source data catalog tool with the all-in-one platform for data discovery, quality, governance, collaboration &amp; more. Join our community to stay updated."
         />
         <meta
           property="og:image"
@@ -50,7 +50,7 @@ export default function Community() {
         />
         <meta
           name="twitter:description"
-          content="OpenMetadata is the #1 open source data catalog tool with the all-in-one platform for data discovery, quality, governance, collaboration & more. Join our community to stay updated."
+          content="OpenMetadata is the #1 open source data catalog tool with the all-in-one platform for data discovery, quality, governance, collaboration &amp; more. Join our community to stay updated."
         />
         <meta
           name="twitter:image"
@@ -84,10 +84,10 @@ export default function Community() {
                     </div>
                     <div className="col-lg-6" data-aos="fade-up">
                       <h1 className="page-header-ui-title font-semibold">
-                        Meet & Greet on Slack
+                        Meet &amp; Greet on Slack
                       </h1>
                       <p className="page-header-ui-text mb-2">
-                        That’s where the OpenMetadata enthusiasts are;
+                        That's where the OpenMetadata enthusiasts are;
                         <br />
                         apart from&nbsp;
                         <a
@@ -106,7 +106,7 @@ export default function Community() {
                         their lives easier.
                       </p>
                       <p>
-                        Learn, engage, and get going with your organization’s
+                        Learn, engage, and get going with your organization's
                         needs!
                       </p>
                       <div className="flex flex-col sm:flex-row max-lg:mt-3">
@@ -151,7 +151,7 @@ export default function Community() {
                     <p className="text-lg">
                       Join us&nbsp;
                       <strong>every month</strong> over Zoom to learn about
-                      OpenMetadata’s progress. Catch up with some exciting news
+                      OpenMetadata's progress. Catch up with some exciting news
                       on the upcoming features. Benefit from the informative
                       webinars, watch live demos, ask questions, and share your
                       feedback.
@@ -207,7 +207,7 @@ export default function Community() {
                         <YoutubeEmbed videoId="ihwtuNHt1kI" />
                         <p className="font-semibold mb-0 mt-2">
                           Here's a Webinar on Data Quality Simplified:
-                          Effortlessly Build, Deploy, Monitor, & Configure
+                          Effortlessly Build, Deploy, Monitor, &amp; Configure
                           Alerts with our No-Code Platform. Watch Teddy
                           Crépineau, Founding Software Engineer at Collate demo
                           the easy-to-use and extensible data quality features
@@ -236,8 +236,8 @@ export default function Community() {
                     <div className="text-center mt-5">
                       <p className="text-lg">
                         Watch out for an end-to-end coverage on everything you
-                        need to know about Data Lineage, Data Quality &
-                        Profiler, Roles & Policies, Custom Connectors, Data
+                        need to know about Data Lineage, Data Quality &amp;
+                        Profiler, Roles &amp; Policies, Custom Connectors, Data
                         Culture, Storage Services, Setting up Integrations for
                         Metadata Ingestion, Data Discovery, and a lot more.
                       </p>
@@ -276,8 +276,8 @@ export default function Community() {
                       .
                     </p>
                     <p className="mb-5">
-                      You’ll also find some short feature videos there. Here’s
-                      what’s most recent. Take a look!
+                      You'll also find some short feature videos there. Here's
+                      what's most recent. Take a look!
                     </p>
                     <div className="row gx-5">
                       <div className="col-lg-6 mb-4">
