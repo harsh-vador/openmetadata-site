@@ -9,6 +9,7 @@ import {useEffect} from "react";
 import Script from "next/script";
 
 config.autoAddCss = false;
+
 export default function App({Component, pageProps}: AppProps) {
   useEffect(() => {
     AOS.init({

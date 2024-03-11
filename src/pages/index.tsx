@@ -102,6 +102,7 @@ export default function Home() {
                       className="object-contain"
                       src="/assets/home-section.png"
                       alt="home-section-img"
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -174,7 +175,7 @@ export default function Home() {
                   <div className="card">
                     <div className="card-body p-2">
                       <div className="video bg-img-cover rounded">
-                        <YoutubeEmbed videoId="pF8L_mAtexo" height="350" />
+                        <YoutubeEmbed videoId="pF8L_mAtexo" />
                       </div>
                     </div>
                   </div>
