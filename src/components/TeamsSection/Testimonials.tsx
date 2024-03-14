@@ -12,7 +12,7 @@ const Testimonials = () => {
     const {onClick} = props;
     return (
       <div
-        className={`w-20 h-20 absolute -right-[25px] translate-x-[90%] top-[50%]`}
+        className={`w-20 h-20 absolute max-md:-right-[10px] -right-[25px] translate-x-[90%] top-[50%]`}
       >
         <div
           className={
@@ -34,7 +34,9 @@ const Testimonials = () => {
   function SamplePrevArrow(props) {
     const {onClick} = props;
     return (
-      <div className={`w-20 h-20 absolute -translate-x-[70%] top-[50%]`}>
+      <div
+        className={`w-20 h-20 absolute max-md:-translate-x-[50%] -translate-x-[70%] top-[50%]`}
+      >
         <div
           className={
             "h-[40px] w-[40px] bg-[#7147EB] rounded-full flex justify-center items-center cursor-pointer hover:shadow-xl"
