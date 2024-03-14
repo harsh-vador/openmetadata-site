@@ -192,7 +192,7 @@ export default function Home() {
                     Improvements, and lots more.
                     <strong>OpenMetadata 1.3.0 Release </strong>
                     <Link
-                      style={{color: "#7147e8"}}
+                      className="text-primary"
                       href="https://blog.open-metadata.org/openmetadata-release-1-3-ac801834ee80"
                       target="_blank"
                     >
