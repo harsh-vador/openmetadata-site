@@ -301,7 +301,7 @@ export default function Home() {
                       alt="git-svg"
                       loading="lazy"
                     />
-                    <h3 className="mb-2">Let’s Build on GitHub</h3>
+                    <h3 className="mb-2 font-medium">Let’s Build on GitHub</h3>
                     <p className="mb-4">
                       Contribute code, try out good starting issues, and join
                       the momentum.
@@ -326,7 +326,7 @@ export default function Home() {
                       alt="doc-svg"
                       loading="lazy"
                     />
-                    <h3 className="mb-2">Refer to our Docs</h3>
+                    <h3 className="mb-2 font-medium">Refer to our Docs</h3>
                     <p className="mb-4">
                       Benefit with the step-by-step implementation guides and
                       get started.
@@ -351,7 +351,7 @@ export default function Home() {
                       alt="slack-icon-svg"
                       loading="lazy"
                     />
-                    <h3 className="mb-2">Connect on Slack</h3>
+                    <h3 className="mb-2 font-medium">Connect on Slack</h3>
                     <p className="mb-4">
                       Ask questions, get help, discuss features, and connect
                       with contributors &amp; users.
@@ -376,7 +376,7 @@ export default function Home() {
                       alt="join-us-svg"
                       loading="lazy"
                     />
-                    <h3 className="mb-2">Join our Community</h3>
+                    <h3 className="mb-2 font-medium">Join our Community</h3>
                     <p className="mb-4">
                       Attend meetings, share your thoughts, and know where we
                       are heading.
