@@ -38,8 +38,9 @@ const BlogCard: React.FC<BlogCardProps> = ({
       </div>
       <div className="flex justify-between items-center border-top px-5 py-3">
         <Link
+          rel="noopener noreferrer"
           aria-label="Read More"
-          className="text-indigo-500 inline-flex items-center text-[14px] hover:no-underline"
+          className="text-primary inline-flex items-center text-[14px] hover:no-underline"
           href={blogLink}
           target="_blank"
         >
@@ -49,7 +50,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
           aria-label="Read More"
           href={blogLink}
           target="_blank"
-          className="text-indigo-500 inline-flex items-center"
+          className="text-primary inline-flex items-center"
         >
           <svg
             className="w-4 h-4 ml-2"
