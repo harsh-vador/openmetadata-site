@@ -1,7 +1,7 @@
 import React from "react";
 const SaasTrial = () => {
   return (
-    <section className="bg-cloud bg-img-cover  overlay overlay-light overlay-80  relative pt-10 pb-5 overflow-hidden">
+    <section className="bg-cloud bg-img-cover overlay overlay-light overlay-80  relative pt-10 pb-5 overflow-hidden">
       <div className="container px-5 z-10 relative">
         <div className="row gx-5 justify-center">
           <div className="col-lg-8">
@@ -22,7 +22,7 @@ const SaasTrial = () => {
                 <a
                   href="https://getcollate.io"
                   target="_blank"
-                  className="btn-sm btn-primary px-3 py-3 rounded-md transition duration-300 ease-in-out  text-white hover:no-underline	"
+                  className="btn-md btn-primary px-3 py-3 rounded-md transition duration-300 ease-in-out  text-white hover:no-underline	"
                 >
                   Sign Up for the SaaS Trial
                 </a>
