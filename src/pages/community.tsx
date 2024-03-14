@@ -65,7 +65,7 @@ export default function Community() {
         <div id="layoutDefault_content">
           <main>
             <Navbar />
-            <header className="page-header-ui page-header-ui-light bg-white max-lg:mt-0">
+            <header className="page-header-ui page-header-ui-light bg-white lg:pt-0 max-lg:mt-0">
               <div className="page-header-ui-content pt-5 max-lg:pt-0">
                 <div className="container px-10">
                   <div className="row gx-5 align-items-center">
