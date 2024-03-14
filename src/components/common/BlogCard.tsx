@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface BlogCardProps {
@@ -36,14 +37,14 @@ const BlogCard: React.FC<BlogCardProps> = ({
         <p className="text-base flex-grow">{description}</p>
       </div>
       <div className="flex justify-between items-center border-top px-5 py-3">
-        <a
+        <Link
           aria-label="Read More"
           className="text-indigo-500 inline-flex items-center text-[14px] hover:no-underline"
           href={blogLink}
           target="_blank"
         >
           Read more
-        </a>
+        </Link>
         <a
           aria-label="Read More"
           href={blogLink}

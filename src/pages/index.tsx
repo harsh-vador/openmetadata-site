@@ -10,6 +10,7 @@ import Footer from "@/components/Footer/Footer.component";
 import Integrations from "@/components/Integrations/Integrations";
 import Navbar from "@/components/Navbar/Navbar.component";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -190,13 +191,13 @@ export default function Home() {
                     Manager, Custom Metrics for Profiler, Knowledge Center
                     Improvements, and lots more.
                     <strong>OpenMetadata 1.3.0 Release </strong>
-                    <a
+                    <Link
                       style={{color: "#7147e8"}}
                       href="https://blog.open-metadata.org/openmetadata-release-1-3-ac801834ee80"
                       target="_blank"
                     >
                       Read more here
-                    </a>
+                    </Link>
                     .
                   </div>
                 </div>
