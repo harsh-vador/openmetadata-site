@@ -185,21 +185,19 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div>
-                    <strong>OpenMetadata 1.3.0 Released</strong> Intuitive
-                    Lineage UI, Data Observability Alerts, Data Quality Incident
-                    Manager, Custom Metrics for Profiler, Knowledge Center
-                    Improvements, and lots more.
-                    <strong>OpenMetadata 1.3.0 Release </strong>
-                    <Link
-                      className="text-primary"
-                      href="https://blog.open-metadata.org/openmetadata-release-1-3-ac801834ee80"
-                      target="_blank"
-                    >
-                      Read more here
-                    </Link>
-                    .
-                  </div>
+                  <strong>OpenMetadata 1.3.0 Released</strong> Intuitive Lineage
+                  UI, Data Observability Alerts, Data Quality Incident Manager,
+                  Custom Metrics for Profiler, Knowledge Center Improvements,
+                  and lots more.
+                  <strong>OpenMetadata 1.3.0 Release </strong>
+                  <Link
+                    className="text-primary"
+                    href="https://blog.open-metadata.org/openmetadata-release-1-3-ac801834ee80"
+                    target="_blank"
+                  >
+                    Read more here
+                  </Link>
+                  .
                 </div>
               </div>
             </div>
