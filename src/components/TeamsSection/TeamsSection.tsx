@@ -4,7 +4,7 @@ import {TEAMS_LIST} from "@/constants/Testimonials.constants";
 
 const TeamsSection = () => {
   return (
-    <div className="container position-relative px-5">
+    <div className="container position-relative px-5 pt-10">
       <div className="row gx-md-5 justify-content-center">
         <div className="col-lg-12">
           <div className="text-center mb-5">

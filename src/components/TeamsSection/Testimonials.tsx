@@ -9,37 +9,45 @@ import {TESTIMONIALS_LIST} from "@/constants/Testimonials.constants";
 const Testimonials = () => {
   const slider = React.useRef(null);
   function SampleNextArrow(props) {
-    const {className, onClick} = props;
+    const {onClick} = props;
     return (
       <div
-        style={{width: "30px", height: "30px", marginRight: "-20px"}}
-        className={className}
-        onClick={onClick}
+        className={`w-20 h-20 absolute -right-[25px] translate-x-[90%] top-[50%]`}
       >
-        <Image
-          alt="right-arrow"
-          src={"/assets/icons/right-arrow.svg"}
-          width={30}
-          height={30}
-        />
+        <div
+          className={
+            "h-[40px] w-[40px] bg-[#7147EB] rounded-full flex justify-center items-center cursor-pointer hover:shadow-xl"
+          }
+          onClick={onClick}
+        >
+          <Image
+            alt="next-arrow"
+            src={"/assets/icons/next-arrow.svg"}
+            width={30}
+            height={30}
+          />
+        </div>
       </div>
     );
   }
 
   function SamplePrevArrow(props) {
-    const {className, onClick} = props;
+    const {onClick} = props;
     return (
-      <div
-        style={{width: "30px", height: "30px", marginLeft: "-20px"}}
-        className={className}
-        onClick={onClick}
-      >
-        <Image
-          alt="left-arrow"
-          src={"/assets/icons/left-arrow.svg"}
-          width={30}
-          height={30}
-        />
+      <div className={`w-20 h-20 absolute -translate-x-[70%] top-[50%]`}>
+        <div
+          className={
+            "h-[40px] w-[40px] bg-[#7147EB] rounded-full flex justify-center items-center cursor-pointer hover:shadow-xl"
+          }
+          onClick={onClick}
+        >
+          <Image
+            alt="previous-arrow"
+            src={"/assets/icons/previous-arrow.svg"}
+            width={30}
+            height={30}
+          />
+        </div>
       </div>
     );
   }
@@ -52,39 +60,8 @@ const Testimonials = () => {
     autoplay: true,
     autoplaySpeed: 5000,
     arrows: true,
-    prevArrow: <SamplePrevArrow />, // Custom previous arrow component
-    nextArrow: <SampleNextArrow />, // Custom next arrow component
-  };
-
-  const imageSettings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    arrows: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-    ],
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
   };
 
   return (
