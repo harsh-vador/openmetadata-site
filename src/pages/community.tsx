@@ -222,14 +222,16 @@ export default function Community() {
                     </div>
                   </div>
                 </div>
-                <div className="text-center mt-5">
-                  <p className="text-[18px]">
-                    Watch out for an end-to-end coverage on everything you need
-                    to know about Data Lineage, Data Quality &amp; Profiler,
-                    Roles &amp; Policies, Custom Connectors, Data Culture,
-                    Storage Services, Setting up Integrations for Metadata
-                    Ingestion, Data Discovery, and a lot more.
-                  </p>
+                <div className="mt-6 flex justify-center">
+                  <div className="col-lg-8 items-center justify-items-center text-center">
+                    <p className="text-[18px]">
+                      Watch out for an end-to-end coverage on everything you
+                      need to know about Data Lineage, Data Quality &amp;
+                      Profiler, Roles &amp; Policies, Custom Connectors, Data
+                      Culture, Storage Services, Setting up Integrations for
+                      Metadata Ingestion, Data Discovery, and a lot more.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="svg-border-rounded text-light">
