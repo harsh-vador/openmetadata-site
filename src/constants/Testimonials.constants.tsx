@@ -4,7 +4,7 @@ export const TESTIMONIALS_LIST = [
     description:
       "One of the best solutions for metadata management. Solves some of the tough problems for data teams such as: asset documentation, collaboration, discovery & quality, while supporting a wide range of integrations with 3p tools like Airflow, Snowflake, dbt, Redash etc. Super thankful to the OM community for prompt support.",
     date: "May 13th, 2022",
-    image: "/assets/testimonials/kb.jpg",
+    image: "/assets/testimonials/kb.webp",
     company: "Khatabook",
     url: "https://khatabook.com/",
     title: "Lead - Data Platform",
@@ -33,7 +33,7 @@ export const TESTIMONIALS_LIST = [
     name: "Sandeep Penmetsa",
     description:
       "OpenMetadata played a pivotal role in Data Centralization. The metadata management helped multiple teams (Ops/Analytics) in understanding the nitty-gritty details at a column level. The overall support and documentation was super quick and helpful. Excited to integrate other frameworks like Great Expectations and Prefect",
-    image: "/assets/testimonials/physicsWallah.jpg",
+    image: "/assets/testimonials/physicsWallah.webp",
     company: "Physics Wallah",
     url: "https://www.pw.live/",
     title: "Associate Director",
@@ -105,7 +105,7 @@ export const TESTIMONIALS_LIST = [
 export const TEAMS_LIST = [
   {
     name: "khatabook",
-    image: "/assets/testimonials/kb.jpg",
+    image: "/assets/testimonials/kb.webp",
     url: "https://khatabook.com/",
   },
   {
@@ -135,7 +135,7 @@ export const TEAMS_LIST = [
   },
   {
     name: "physicsWallah",
-    image: "/assets/testimonials/physicsWallah.jpg",
+    image: "/assets/testimonials/physicsWallah.webp",
     url: "https://www.pw.live/",
   },
   {
